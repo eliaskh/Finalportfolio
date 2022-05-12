@@ -1,8 +1,8 @@
 module.exports = {
   flags: {
-     PRESERVE_WEBPACK_CACHE: false,
-     PRESERVE_FILE_DOWNLOAD_CACHE: false
-   },
+    PRESERVE_WEBPACK_CACHE: false,
+    PRESERVE_FILE_DOWNLOAD_CACHE: false,
+  },
   siteMetadata: {
     title: `Spet - Gatsby React IT & Business Startup`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
@@ -41,7 +41,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `https://upwork-her.herokuapp.com`,
+        apiURL: `https://portfoliogreek.herokuapp.com`,
         queryLimit: 1000,
         contentTypes: [
           "top-features",
